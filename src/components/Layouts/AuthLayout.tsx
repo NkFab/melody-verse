@@ -15,7 +15,7 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({children}) => {
                 <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
                     <div>
                         <img src={ConnectVerse}
-                            className=" w-52 mx-auto" />
+                            className=" w-60 mx-auto" />
                     </div>
                     <div className=" mt-32 flex flex-col items-center">
                         <div className="w-full flex-1 mt-8">
