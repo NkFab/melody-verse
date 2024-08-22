@@ -21,7 +21,7 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({children}) => {
                         <div className="w-full flex-1 mt-8">
 
 
-                            <div className="mx-auto max-w-xs">
+                            <div className="mx-auto max-w-xs gap-5">
                                 {children}
                             </div>
                         </div>
