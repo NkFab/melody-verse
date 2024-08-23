@@ -30,7 +30,9 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({children}) => {
                 <div className="flex-1 bg-indigo-100 text-center hidden lg:flex">
                     <div className=" w-full bg-cover bg-center"
                         style={{
-                            backgroundImage: `url(${MelodyVerse})`
+                            backgroundImage: `url(${MelodyVerse})`,
+                            backgroundColor: 'rgb(255, 255, 255, 0.5)',
+                            backgroundBlendMode: 'overlay'
                         }}>
                     </div>
                 </div>
