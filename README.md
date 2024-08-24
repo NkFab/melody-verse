@@ -1,50 +1,20 @@
-# React + TypeScript + Vite
+# MelodyVerse React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was built using React + TypeScript and it's running on Vite as the web application build tool.
 
-Currently, two official plugins are available:
+### Getting up and running on the local environment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow this [guide](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) to install node on your local environment.
 
-## Expanding the ESLint configuration
+Open your terminal and clone the project using this command: `git clone git@github.com:NkFab/melody-verse.git.`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Navigate to the directory to which you cloned the project and change the directory to the cloned project by running this command `cd melody-verse`. After this install all the dependencies using this command `npm install or yarn`.
 
-- Configure the top-level `parserOptions` property like this:
+Then run `npm run dev` to start the application.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Link to app preview
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+This [link](https://melody-verse.netlify.app) is for the preview of the react app.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Prepared by Nkaka Manzi Fabrice
